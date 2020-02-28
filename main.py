@@ -20,7 +20,7 @@ def sharpen_wallpaper(image_folder, store_location):
         out = out.filter(ImageFilter.SHARPEN)
         ImageOps.solarize(out, 100)
         out.thumbnail((1920, 1080))
-        name = filename.split(".")
+        name = os.path.splitext(filename)
         print(f'Stored As {store_location}/{name[0]}.png \n')
         out.save(f'{store_location}/{name[0]}-converted.png', "png")
 
