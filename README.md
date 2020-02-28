@@ -8,8 +8,8 @@ The Image Processor is a Python script which takes two folder as arguements. Fir
 
 #### 1.) As arguements-
 
-##### python main.py `image_folder` `store_folder`
+python main.py `image_folder` `store_folder`
 
 #### 2.)As Program-
 
-##### `python main.py`
+`python main.py`
